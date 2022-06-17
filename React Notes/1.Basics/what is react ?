@@ -1,0 +1,36 @@
+React is a Javascript library for building User Interfaces.
+1. It being a js library works in user's browser - hence faster.
+2. React is all about components , every web page is divided into components 
+and it makes code more manageable.
+3. React can be called as custom HTML templates.
+4. Re-usable Components make the creation of web pages easier.
+
+
+Single Page Applications :
+1.we only get back one single HTML file from the server and we get back this file the 
+first time the user visits everything is managed with JavaScript with React. The entire page consists
+of components which are rendered and handled by JavaScript.
+2. our page is built up with components and every component is a React
+component. The entire page is also managed by a root React component which is exclusively under React's control.
+3. only one  ReactDOM.render() call
+Multi Page Applications :
+1.we get back multiple HTML pages where each page has the
+content for a given route.we might also use React, but only to create little widgets,
+so to say; individually-contained components we dump into that page 
+but the 'entire page' is not managed by React.
+2.we also could split up our app into theoretical components, but actually a lot of the page is just normal 
+HTML and CSS and some widgets are react components.
+So, the entire page is not under React's control. The individual widgets don't know of each other's existence.
+3.Multiple  ReactDOM.render() call for each widget.
+
+
+
+More popular is Single Page Applications : because if you manage the entire page with JavaScript,
+you never have to go back to the server and reload the page.
+This is an amazing user experience because everything happens instantly.
+
+kill process at 3000
+sudo kill -9 $(sudo lsof -t -i:3000)
+
+
+

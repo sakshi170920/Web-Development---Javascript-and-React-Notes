@@ -1,0 +1,27 @@
+Asynchronous Javascript  :
+Start something now nad finish later.
+
+Javascript is an Synchronous language (single threaded , executes sequentially).
+now if one task takes a long time all the other tasks after it will have to wait
+and are blocked .
+SOl : async Javascript
+Here we make that task async and hence it is carried by antoher browser , as a result other funcs
+are executed after it and when that task completes its respective callback is called .
+
+
+https://jsonplaceholder.typicode.com/
+
+
+JSON 
+
+json is a string which looks like an array of js objects
+as data is send to and fro in format of strigns we use json on http
+we convert json to js object as its more convinient
+Now json must have all key values in double quotes and all values in double quotes too if they are strings
+{"name":'shaun'}//not allowed
+//allowed
+[
+    {"anem":"shaun"},
+    {"aaa":50}
+    
+]

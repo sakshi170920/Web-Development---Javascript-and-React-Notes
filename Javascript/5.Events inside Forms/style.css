@@ -1,0 +1,21 @@
+.body{
+    background-color: #eee;
+}
+.signup-form{
+    margin: 40px auto;
+    background: white;
+    max-width: 300;
+    width: 100%;
+    padding: 10px;
+}
+input{
+    display: block;
+    margin: 30px auto;
+    padding: 10px auto;
+}
+.error{
+    border: 4px solid crimson;
+}
+.success{
+    border: 4px solid lime;
+}

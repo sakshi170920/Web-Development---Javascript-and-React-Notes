@@ -1,0 +1,17 @@
+li{
+    background-color: #eee;
+    margin: 8px 10px;
+    max-width: 200px;
+    height: 60px;
+    text-align: center;
+    padding: 8px;
+    list-style: none;
+    border: 1px dotted #ddd;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    border: 1px solid black;
+    margin: 0px 50px;
+}

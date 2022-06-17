@@ -1,0 +1,14 @@
+.demo{
+    color:lightseagreen;
+}
+#id1{
+    color: blueviolet;
+}
+.error{
+    color: green;
+    font-size: large;
+}
+.success{
+    color: red;
+    font-size: x-large;
+}

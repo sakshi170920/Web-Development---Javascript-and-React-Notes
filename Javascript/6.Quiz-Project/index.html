@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body class="text-sm">
+    <!-- top section  -->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 m-4 ">Ninja Quiz</h2>
+        </div>
+    </div>
+    <!-- result section -->
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead">
+            <p>Your are <span class="text-primary display-4 py-3">0%</span>Web Expert</p>
+        </div>
+    </div>
+    <!-- quiz section -->
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="my-5 text-white">On with the questions...</h2>
+        </div>
+        <form action="" class="quiz-form text-light">
+            <div class="my-5">
+                <p class="lead font-weight-normal">Who invented JavaScript?</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q1" value="A" checked>
+                    <label for="" class="form-label-check">Sheryl Sandberg</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q1" value="B" >
+                    <label for="" class="form-label-check">Brendan Eich</label>
+                </div>
+            </div>
+
+            <div class="my-5">
+                <p class="lead font-weight-normal">Which one of these is a JavaScript package manager?</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q2" value="A" checked>
+                    <label for="" class="form-label-check">Node.js</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q2" value="B" >
+                    <label for="" class="form-label-check">npm</label>
+                </div>
+            </div>
+
+            <div class="my-5">
+                <p class="lead font-weight-normal">Which tool can you use to ensure code quality?</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q3" value="A" checked>
+                    <label for="" class="form-label-check">Angular</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q3" value="B" >
+                    <label for="" class="form-label-check">ESLint</label>
+                </div>
+            </div>
+
+            <div class="my-5">
+                <p class="lead font-weight-normal">Which lanuguage do you use for scripting?</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q4" value="A" checked>
+                    <label for="" class="form-label-check">Javascript</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q4" value="B" >
+                    <label for="" class="form-label-check">HTML</label>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <input type="submit" class="btn btn-light">
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

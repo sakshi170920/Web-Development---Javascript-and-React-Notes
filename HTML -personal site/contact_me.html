@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>12 Raviwar Peth , Near Bank of India , Karad - 415110</p>
+    <p>+917796534008</p>
+    <p>oswalsakshi17@gmail.com</p>
+    <hr>
+    <!-- <form action="mailto:sakshi.oswal18@vit.edu" method="POST"> -->
+    <form action="php/insert.php" name='Contact' method="POST">
+        <label for=>Name : </label>
+        <input type="text" name="yourName" value="">
+        <br> <br>
+        <label for=>Mobile No: </label>
+        <input type="text" name="yourNumber" value="">
+        <br> <br>
+        <label for=>Email : </label>
+        <input type="email" name="YourEmail" value="" >
+        <input type="button">
+        <br> <br>
+        <label for=>Your Message: </label><br>
+        <textarea name="YourMessage" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit">
+    </form>
+    <script src="javascript/app.js"></script>
+</body>
+</html>

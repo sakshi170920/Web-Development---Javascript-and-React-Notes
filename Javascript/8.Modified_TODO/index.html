@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/8a3fd10b0d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- order of above files matter , when we declare css after bootstrap , our style.css is given higher priority -->
+
+</head>
+<body>
+    <div class="container">
+       <header class="text-light my-4 text-center">
+            <h1 class="mb-4">TODO List</h1>
+            <form action="" class="search">
+                <input type="text" class="form-control mx-auto" name="search" placeholder="searchTodos">
+            </form>
+        </header>
+        <ul class="list-group todos mx-auto text-light" >
+            <li class="list-group-item li-p d-flex justify-content-between align-items-center">
+                <span>This is a text</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" >
+                <span>okay but this may be </span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" >
+                <span>Buy Milk</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>Buy Milkmaid</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+        </ul>
+        <form action="" class="add text-center my-4">
+            <label for="" class="text-light">Add a new TODO</label>
+            <input type="text" class="form-control m-auto" name="add">
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+/*******************TAG SELECTORS*************************/
+body{
+    background-color: #dcf3dd;
+}
+hr{
+    background-color: white;
+    border-style: none;
+    height: 2px;
+}
+h3
+{
+    color:#206a5d;
+    
+}
+h1
+{
+    color:#206a5d;
+}
+/* h1:hover{
+    background-color: black;
+    color: black;
+} */
+/*******************CLASS SELECTORS***********************/
+/* An HTML element can have more than one class <h3 class="demo1 italic">*/
+.demo1{
+    color: #206a5d;
+}
+.demo2{
+    color: #206a5d;
+}
+.italic{
+    font-style: italic;
+}
+/*******************ID SELECTOR*************************/
+/* 1 id can be applied to only single element throughout a single page whereas class can be applied to multiple elements to group them*/
+#heading{
+    color: #194350;
+}
+/* 
+user agent stylesheet default properties are applied always if we go specific and define custom properties then they are applied
+priority wise :
+id > class > tag
+inline css > internal css > external css
+*/

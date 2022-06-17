@@ -1,0 +1,8 @@
+Local storage means store data locally on user's computer
+Here windows.LocalStorage is a propert wherin it has a lot of menthods to 
+insert , remvoe , fetch data.
+
+ALos this data must be a string , so jst like json
+we hv to convert objects to string for storing and vice versa while retreving.
+
+LocalStorage is not associated with a folder , it is associated with browser , so all websites data is stored in a common database : LocalStorage 

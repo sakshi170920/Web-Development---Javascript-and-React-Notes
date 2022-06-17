@@ -1,0 +1,11 @@
+DOM(Document Object Model)
+
+The html page is converted by browser into an object called DOM
+DOM stores html page as an heirracial tree
+where html is root node and head , body are its child
+each one can have its own child like body may have - h1, p , div
+the leaf nodes are called text nodes.
+
+can be accessed by document in js
+
+we access all the things on webpage (html) via DOM

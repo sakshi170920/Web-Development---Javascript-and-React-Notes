@@ -1,0 +1,23 @@
+the css files we define our globally applied to all components
+
+now we can scope css files :
+so that whichever styles we define in here could be imported and
+assigned to elements in this component and wouldn't overwrite styles in other components or other parts
+of the app even if we were to share the names of the css classes.
+
+To handle everything through scoped css files and to do that, we  need to tweak the built
+configuration of our project.
+
+we're using these react scripts, that this is a package which
+exposes the whole build workflow to us and we can't really add it to the configuration.
+
+command which gives us access to the configuration though, eject. You can
+run npm run eject to basically convert youreverything is managed
+for me project into everything is managed for me but I can edit the configuration project.
+
+Webpack is basically the build, the bundling tool which gets used, which applies
+all kinds of transformations and optimizations on our files and bundles them together and as part of
+this process, it also takes care about our css files.
+webpack is able to parse this css import in our javascript file.
+
+https://facebook.github.io/create-react-app/docs/adding-a-css-modules-stylesheet dont need to eject for css modules
